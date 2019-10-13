@@ -1,0 +1,33 @@
+We are a building online web application. It need s to track all our employees, projects they are working on, time they are spending on each project tasks.
+This application should be available both in mobile app and browser.
+Develope a solution to administer or manage above.
+
+Nouns(Entities/ Domains)
+1. employee
+2. task
+3. project
+
+Verbs(Operations)
+1. create
+2. read
+3. update
+4. delete
+
+Commands
+ng g c employee/create
+ng g c employee/read
+ng g c employee/update 
+ng g c employee/delete
+
+ng g c task/create
+ng g c task/read
+ng g c task/delete
+ng g c task/update
+
+ng g c project/create
+ng g c project/read
+ng g c project/update
+ng g c project/delete
+
+
+
